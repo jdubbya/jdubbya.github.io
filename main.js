@@ -1,5 +1,5 @@
 
   function sayHello() {
     alert('hello');
-    document.querySelector("body").style.cursor = "wait";
+    document.getElementsByTagName('body')[0].style.cursor = "wait";
   }
