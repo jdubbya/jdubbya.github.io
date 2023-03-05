@@ -1,3 +1,5 @@
 (function(){
-alert('hello');
+  function sayHello() {
+    alert('hello');
+  }
 })();
